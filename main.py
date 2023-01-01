@@ -1,13 +1,11 @@
 # Email slicer
 
-
-def get_email():
-    # Use a breakpoint in the code line below to debug your script.
+# Function to get and process email
+def process_email():
+    # Get email
     email = input('What is your email?')
-    print(f'Your email is {email}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f'Your email is {email}')
 
-# Press the green button in the gutter to run the script.
+# run if main
 if __name__ == '__main__':
-    get_email()
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    process_email()

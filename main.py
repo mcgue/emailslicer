@@ -4,7 +4,9 @@
 def process_email():
     # Get email
     email = input('What is your email?')
-    print(f'Your email is {email}')
+    # Split
+    email_split = email.split('@',1)
+    print(f'Your email is {email_split}')
 
 # run if main
 if __name__ == '__main__':
